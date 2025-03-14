@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Zyter colors
+				zyter: {
+					blue: '#0063BE',
+					teal: '#00B2B0',
+					navy: '#003F73',
+					lightblue: '#E5F1FF',
+					gray: '#F7F7F7',
+					darkgray: '#333333',
 				}
+			},
+			backgroundImage: {
+				'zyter-gradient': 'linear-gradient(135deg, #0063BE 0%, #00B2B0 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
