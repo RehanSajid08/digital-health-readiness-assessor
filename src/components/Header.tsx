@@ -20,7 +20,7 @@ const Header = () => {
           <NavigationMenu>
             <NavigationMenuList className="space-x-2">
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple/50">Solutions</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple">Solutions</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-4 w-[400px]">
                     <li className="row-span-3">
@@ -42,7 +42,7 @@ const Header = () => {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple/50">Customers</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple">Customers</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-4 w-[400px]">
                     <li className="row-span-3">
@@ -64,7 +64,7 @@ const Header = () => {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple/50">Company</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple">Company</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-4 w-[400px]">
                     <li className="row-span-3">
@@ -88,14 +88,14 @@ const Header = () => {
               <NavigationMenuItem>
                 <NavigationMenuLink 
                   className={cn(
-                    "text-white hover:text-white hover:bg-zyter-purple/50 inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium"
+                    "text-white hover:text-white hover:bg-zyter-purple inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium"
                   )}
                 >
                   Career
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple/50">Learning</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="text-white hover:text-white hover:bg-zyter-purple">Learning</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-4 w-[400px]">
                     <li className="row-span-3">
