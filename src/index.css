@@ -105,10 +105,15 @@
   }
   
   .zyter-btn {
-    @apply bg-zyter-gradient text-white font-medium py-2 px-6 rounded-md hover:opacity-90 transition-opacity;
+    @apply bg-zyter-light-teal text-white font-medium py-2 px-6 rounded-full hover:opacity-90 transition-opacity;
   }
   
   .zyter-card {
     @apply bg-white rounded-lg shadow-md border border-gray-100 p-6;
+  }
+
+  /* Progress component fix - remove the indicatorClassName property from Progress component usage */
+  .zyter-progress .indicator {
+    @apply bg-zyter-teal;
   }
 }

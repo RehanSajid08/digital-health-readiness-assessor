@@ -71,10 +71,13 @@ export default {
 					lightblue: '#E5F1FF',
 					gray: '#F7F7F7',
 					darkgray: '#333333',
+					purple: '#4F207A', // Added Zyter purple from the image
+					'light-teal': '#18C8D3', // Light teal for buttons
 				}
 			},
 			backgroundImage: {
 				'zyter-gradient': 'linear-gradient(135deg, #0063BE 0%, #00B2B0 100%)',
+				'zyter-purple-gradient': 'linear-gradient(135deg, #4F207A 0%, #6930A0 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
