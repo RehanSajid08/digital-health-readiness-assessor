@@ -5,7 +5,7 @@ interface ZyterLogoProps {
   className?: string;
 }
 
-const ZyterLogo: React.FC<ZyterLogoProps> = ({ className = "h-10" }) => {
+const ZyterLogo: React.FC<ZyterLogoProps> = ({ className = "h-14" }) => {
   return (
     <div className={className}>
       <img 

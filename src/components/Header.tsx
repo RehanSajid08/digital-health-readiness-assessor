@@ -8,11 +8,11 @@ import { Linkedin, Twitter } from 'lucide-react';
 
 const Header = () => {
   return (
-    <header className="bg-zyter-purple py-4">
+    <header className="bg-zyter-purple py-5">
       <div className="zyter-container flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo - updated container for larger logo */}
         <div className="flex-shrink-0">
-          <ZyterLogo className="h-10" />
+          <ZyterLogo className="h-14" />
         </div>
 
         {/* Navigation */}
